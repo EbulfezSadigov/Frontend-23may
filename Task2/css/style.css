@@ -1,0 +1,30 @@
+#products .product-item {
+  position: relative;
+}
+#products .product-item span.bi {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 30px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+#products .product-item span.bi:hover {
+    color: green;
+    transform: scale(1.2);
+}
+
+#basket table img{
+  width: 60px;
+  border-radius: 10px;
+}
+#basket table td{
+  vertical-align: middle;
+  cursor: pointer;
+}
+#basket table td.price{
+  font-weight: bolder;
+  color: green;
+  font-size: 20px;
+}
