@@ -21,7 +21,6 @@
 }
 #basket table td{
   vertical-align: middle;
-  cursor: pointer;
 }
 #basket table td.price{
   font-weight: bolder;
